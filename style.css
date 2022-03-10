@@ -16,7 +16,7 @@ header {
 
 .main-contents {
     width: 960px;
-    height: 380px;
+    height: 320px;
     /* background-color: aquamarine; */
     margin: 0 auto;
     display: flex;
@@ -25,39 +25,50 @@ header {
 .contena1 {
     width: 300px;
     height: 100%;
-    background-color: #EEEEEE;
 }
 
-
+span {
+    background-color: #FF9A4B;
+    color: #EEEEEE;
+    position: absolute;
+    bottom: 295px;
+    right: 277px;
+}
 
 .main1 {
+        background-color: #EEEEEE;
     padding: 10px;
+    position: relative;
 }
 
 .main2 {
     padding: 10px;
+    background-color: #EEEEEE;
+    margin: 0 30px;
+    position: relative;
 }
 
 .main3 {
     padding: 10px;
+    background-color: #EEEEEE;
+    position: relative;
 }
 
 .contena2 {
-    margin: 0 30px;
     width: 300px;
     height: 100%;
-    background-color: #EEEEEE;
+
 }
 
 .contena3 {
     width: 300px;
     height: 100%;
-    background-color: #EEEEEE;
 }
 
 
 
 .imag1 {
+    margin: 0 auto;
     width: 300px;
     height: 150px;
     background-image: url(img/flow01.png);
@@ -65,17 +76,16 @@ header {
     background-size: cover;
 }
 
+
 .text1 {
     margin-top: 15px;
     margin-bottom: 5px;
-    line-height: 30px;
+    line-height: 25px;
 }
 
-.text1 h2 {
-    margin-left: 10px;
-}
-.text1-bun {
-    padding: 10px;
+.text1 h3 {
+margin-top: 15px;
+margin-bottom: 5px;
 }
 
 
