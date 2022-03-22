@@ -16,7 +16,6 @@ header {
 
 .main-contents {
     width: 960px;
-    height: 320px;
     /* background-color: aquamarine; */
 margin: 0 auto;
     display: flex;
@@ -24,7 +23,6 @@ margin: 0 auto;
 }
 
 .contena1 {
-    width: 300px;
     height: 100%;
 }
 
@@ -32,8 +30,8 @@ span {
     background-color: #FF9A4B;
     color: #EEEEEE;
     position: absolute;
-    bottom: 295px;
-    right: 277px;
+top: 0;
+left: 0;
 }
 
 .main1 {
@@ -56,13 +54,11 @@ padding: 10px;
 }
 
 .contena2 {
-    width: 300px;
     height: 100%;
 
 }
 
 .contena3 {
-    width: 300px;
     height: 100%;
 }
 
@@ -70,7 +66,6 @@ padding: 10px;
 
 .imag1 {
     margin: 0 auto;
-    width: 300px;
     height: 150px;
     background-image: url(img/flow01.png);
     background-position: center;
@@ -91,7 +86,6 @@ margin-bottom: 5px;
 
 
 .imag2 {
-    width: 300px;
     height: 150px;
     background-image: url(img/flow02.png);
     background-position: center;
@@ -99,7 +93,6 @@ margin-bottom: 5px;
 }
 
 .imag3 {
-    width: 300px;
     height: 150px;
     background-image: url(img/flow03.png);
     background-position: center;
@@ -114,31 +107,24 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-
     .main-contents {
-    display: block;
-    width: 100%;
-}
+        flex-direction: column;
+        width: 100%;
+    }
 
 .main1 {
-    margin-top: 30px;
-    margin-bottom: 30px;
+    width: 90%;
+    margin: 0 auto 20px auto;
 }
 
 .main2 {
-    margin: 0;
+    width: 90%;
+    margin: 0 auto 20px auto;
 }
 
 .main3 {
-    margin-top: 30px;
-}
-
-span {
-    background-color: #FF9A4B;
-    color: #EEEEEE;
-    position: absolute;
-    bottom: 295px;
-    right: 725px;
+    width: 90%;
+    margin: 0 auto 0 auto;
 }
 
 
@@ -149,31 +135,4 @@ span {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
-
